@@ -1,0 +1,21 @@
+[project]
+name = "WeightFormer"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = "==3.12.*"
+dependencies = [
+    "torch>=2.9.1",
+    "torchvision>=0.24.1",
+    "termcolor>=3.2.0",
+    "timm==0.4.12",
+    "wandb>=0.23.1",
+    "yacs>=0.1.8",
+]
+[tool.uv.sources]
+torch = [{ index = "pytorch-cu130" }]
+torchvision = [{ index = "pytorch-cu130" }]
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true

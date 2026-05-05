@@ -1,0 +1,8 @@
+DATA:
+  BATCH_SIZE: 256
+  DATA_PATH: /home/data/imagenet
+MODEL:
+  TYPE: wfm
+  NAME: wfm_small
+  DROP_PATH_RATE: 0.2
+AMP: True

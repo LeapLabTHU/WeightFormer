@@ -1,0 +1,8 @@
+DATA:
+  BATCH_SIZE: 256
+  DATA_PATH: /home/data/imagenet
+  IMG_SIZE: 448
+MODEL:
+  TYPE: wfm
+  NAME: wfm_base
+  DROP_PATH_RATE: 0.2
