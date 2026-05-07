@@ -2,7 +2,7 @@
 
 ## Linear-Time Global Visual Modeling _without_ Explicit Attention
 
-[arXiv](https://arxiv.org/abs/2605.01711)
+[arXiv](https://arxiv.org/abs/2605.01711) | [Hugging Face](https://huggingface.co/papers/2605.01711)
 
 > [Ruize He\*](https://horizonll.github.io/),
 > [Dongchen Han\*](https://scholar.google.com/citations?user=wv3U3tkAAAAJ),
