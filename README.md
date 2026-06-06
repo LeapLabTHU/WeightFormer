@@ -78,6 +78,19 @@ torchrun --nproc_per_node=8 main.py --eval --cfg cfg/wfm_t.yaml --resume wfm-t.p
 
 Replace wfm_t.yaml with your desired config for the T, S, or B variants.
 
+## Hugging Face Hub
+
+Pretrained models are available on the [Hugging Face Hub](https://huggingface.co/RuizeHe):
+
+```python
+from model import WeightFormer_T, WeightFormer_S, WeightFormer_B
+
+# Load a pretrained model from the Hub
+model = WeightFormer_T.from_pretrained("RuizeHe/weightformer-t")
+model = WeightFormer_S.from_pretrained("RuizeHe/weightformer-s")
+model = WeightFormer_B.from_pretrained("RuizeHe/weightformer-b")
+```
+
 ## Image Generation
 
 To use WeightFormer in DiT-style image generation, replace [DiT](https://github.com/facebookresearch/DiT)'s `models.py` with `model/wfm_dit.py`.
